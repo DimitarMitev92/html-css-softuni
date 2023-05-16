@@ -10,8 +10,7 @@ article h1 {
 }
 
 article span {
-    font-family: Graphik Semibold Web, Open Sans, Helvetica Neue, Helvetica,
-        Arial, sans-serif;
+    font-family: Graphik Semibold Web, Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-style: oblique;
     font-weight: 600;
     font-size: 16px;
@@ -20,8 +19,7 @@ article span {
 }
 
 article p {
-    font-family: Graphik Regular Web, Helvetica Neue, Helvetica, Arial,
-        sans-serif;
+    font-family: Graphik Regular Web, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.46;
