@@ -1,0 +1,27 @@
+html {
+    font-family:  Helvetica, sans-serif;
+}
+
+nav{
+    display: inline-block;
+    border-bottom: 2px solid #000;
+}
+
+nav h2 {
+    display: inline-block;
+    font-weight: 600;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: green;
+    padding: 20px;
+}
