@@ -1,0 +1,52 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+header h1 {
+    margin: 0.5em;
+    text-transform: uppercase;
+}
+
+main {
+    margin: 1em;
+}
+
+main h2 {
+    padding: 2em 0 0.5em 0;
+}
+
+main p {
+    padding: 1em 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    padding: 1em;
+}
+
+
+
