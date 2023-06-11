@@ -1,0 +1,45 @@
+@media (max-width: 600px){
+
+    .navigation-nav {
+        display: none;
+    }
+
+    span.home-text {
+        display: none;
+    }
+
+    .home-tab-selector-cards-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+    .home-image-container{
+        display: none;
+    }
+
+    .home-text10 {
+        margin-right: 30px;
+    }
+
+    .section-container{
+        padding-top: 64px;
+        padding-bottom: 32px ;
+    }
+
+    .home-top-part{
+        flex-direction: column;
+    }
+
+    .home-links-container{
+        flex-direction: column;
+    }
+
+    .home-subscribe-container{
+        width: 100%;
+    }
+
+    .button-primary{
+        padding: 1.9em;
+    }
+}
