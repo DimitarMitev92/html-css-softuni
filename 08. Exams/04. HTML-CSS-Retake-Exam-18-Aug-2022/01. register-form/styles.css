@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css2?family=Mulish&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish';
+}
+
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.container-background{
+    width: 100%;
+
+}
+
+.form {
+    width: 45%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.form-background {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0.7em 0.7em 0.7em 0.5em rgba(0,0,0,0.3);
+}
+
+/* FORM */
+
+.form-form{
+    height: 100%;
+    width: 60%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 3em;
+}
+
+.form-form h1 {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    padding-bottom: 1.1em;
+    align-self: center;
+}
+
+.form-names{
+    width: 100%;
+    display: flex;
+    gap:1em
+}
+
+.form-email,
+.form-password,
+.form-confirm-password{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.8em 0;
+
+}
+
+.form-names__first-name input,
+.form-names__last-name input,
+.form-email  input,
+.form-password  input,
+.form-confirm-password  input{
+    width: 100%;
+    padding: 0.6em;
+    border-radius: 200px;
+}
+
+.form-names__first-name label,
+.form-names__last-name label,
+.form-email  label,
+.form-password  label,
+.form-confirm-password  label{
+    font-size: 0.8em;
+    padding-bottom: 0.4em;
+}
+
+.form-checkbox__label {
+    font-size: 0.8em;
+    padding-bottom: 0.4em;
+}
+
+.form-register-btn{
+    margin: 0 auto;
+    padding-top: 1.5em;
+}
+
+.form-register-btn__btn{
+    background-color: #ae3c33;
+    color: #fff;
+    padding: 1em 1.5em;
+    border-radius: 200px;
+}
