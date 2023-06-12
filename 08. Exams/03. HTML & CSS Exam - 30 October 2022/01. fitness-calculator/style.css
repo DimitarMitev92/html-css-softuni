@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 80%;
+    background-color: #f6f7f8;
+    border: 2px solid #000;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    filter:grayscale(30%);
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__heading{
+    margin-bottom: 2em;
+}
+
+.form_btns{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+a.standart-units{
+    color: #000;
+    text-decoration: none;
+    background-color: #86d862;
+    padding:0.5em 1em;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+a.metric-units{
+    color: #000;
+    text-decoration: none;
+    background-color: #e0e0df;
+    padding:0.5em 2em;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.form__secondary-heading{
+    font-size: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.form__gender-years{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap:1.5em;
+}
+
+.form__gender{
+    width: 100%;
+}
+
+.form__years{
+    width: 100%;
+}
+
+.form__pounds{
+    width: 70%;
+    padding: 0.5em;
+}
+
+.form__feet-inches{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    gap:1.3em;
+    margin-bottom: 5em;
+}
+
+.form__feets{
+    width: 100%;
+}
+
+.form__inches{
+    width: 100%;
+}
+
+.form__calculate-btn{
+    width: 80%;
+    text-align: center;
+    background-color: #05a2d3;
+    box-shadow: 0 0.5em 0.5em 0.5em rgba(0,0,0,0.2);
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    padding: 0.5em 0;
+    border-radius: 100px;
+}   
+
