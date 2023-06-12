@@ -1,0 +1,231 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif);
+@import url(https://use.fontawesome.com/releases/v6.4.0/css/all.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans';
+}
+
+/* INFO LINE */
+
+.header-info{
+    background-color: #d01919;
+    padding: 1em 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-info__phone,
+.header-info__location{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-info i {
+    margin-right: 0.5em;
+    color: #fff;
+}
+
+.header-info p {
+    color: #fff
+}
+
+/* NAVIGATION */
+
+.hero-section{
+    position: relative;
+    width: 100%;
+    height: 550px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.navigation-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    list-style: none;
+}
+
+.navigation-list__item-anchor{
+    text-decoration: none;
+    color: #fff;
+    padding: 2.4em;
+}
+
+/* HERO-SECTION */
+
+img.hero-section__background-image{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.main-info{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.main-info__heading{
+    color: #fff;
+    font-size: 3.5em;
+    margin-bottom: 0.5em;
+}
+
+.main-info__paragraph {
+    width: 27%;
+    color: #fff;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.main-info__btn{
+    color: #fff;
+    background-color: #cf1819;
+    text-decoration: none;
+    padding: 0.7em 2em;
+    border-radius: 10px;
+}
+
+/* WELCOME SECTION */
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 7em;
+    margin-bottom: 5em;
+}
+
+.welcome__heading{
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+.welcome__line{
+    width: 50px;
+    height: 2px;
+    background-color: #d7372a;
+    margin: 2em 0;
+}
+
+.welcome__articles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome__articles-article{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome__articles-article__heading{
+    color: #d7372a;
+    margin: 1em 0;
+}
+
+
+
+.welcome__articles-article__icon{
+    width: 65px;
+}
+
+.welcome__articles-article__info{
+    text-align: center;
+}
+
+/* COACHES */
+
+.coaches{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5em;
+    background-color: #efefef;
+}
+
+.coaches__heading{
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+.coaches__line{
+    width: 50px;
+    height: 2px;
+    background-color: #d7372a;
+    margin: 2em 0;
+}
+
+.coaches__articles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coaches__articles-article{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coaches__articles-article__heading{
+    margin: 1em 0;
+}
+
+.coaches__articles-article__subheading{
+    color: #d7372a;
+    padding-bottom: 1em;
+
+}
+
+.coaches__articles-article__icon{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.coaches__articles-article__info{
+    text-align: center;
+    padding-bottom: 5em;
+}
+
+/* FOOTER */
+
+.footer-info{
+    background-color: #d7372a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3em 0;
+}
+
+
+
