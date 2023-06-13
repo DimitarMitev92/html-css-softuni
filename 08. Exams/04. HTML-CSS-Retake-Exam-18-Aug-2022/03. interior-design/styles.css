@@ -1,0 +1,221 @@
+@import url(https://use.fontawesome.com/releases/v6.4.0/css/all.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1350px;
+}
+
+.hero-section{
+    width: 100%;
+    height: 1024px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-section__background {
+    width: 100%;
+    transform: translateY(-25%);
+}
+
+.hero-section__design-content{
+    position: absolute;
+    top: 2.5em;
+    left: 4em;
+    width: 70%;
+    box-shadow: 0 0 0.2em 0.2em rgba(0,0,0,0.3);
+    width: 20%;
+    padding: 2em 5em 2em 1em;
+}
+
+.hero-section__design__heading{
+    font-size: 2.7em;
+    color: #363434;
+    text-shadow: 2px 2px rgba(0,0,0,0.3);
+}
+
+.hero-section__design-line{
+    height: 2px;
+    background-color: #fff;
+    margin: 1em 0;
+}
+
+.hero-section__design__company-name{
+    text-transform: uppercase;
+    color: #363434;
+    text-shadow: 2px 2px rgba(0,0,0,0.3);
+    font-size: 1.1em;
+}
+
+.hero-section__blockquote{
+    background-image: linear-gradient(90deg, #9b9189, #c9c7c6);
+    box-shadow: 0 0 0.2em 0.2em rgba(0,0,0,0.3);
+    width: 350px;
+    position: absolute;
+    top: 29%;
+    right: 5%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 1em 1em 1em 2em;
+}
+
+.hero-section__blockquote i {
+    width: 50px;
+    height: 50px;
+    padding: 1em;
+    color: #8c8480;
+    text-shadow: 2px 2px rgba(0,0,0,0.3);
+}
+
+.hero-section__blockquote-info{
+    font-size: 1.5em;
+    text-align: end;
+    color: #fff;
+    text-shadow: 2px 2px rgba(0,0,0,0.3);
+}
+
+/* MAIN */
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section {
+    flex: 1 1 1200px;
+    background-color: #f2f0f3;
+}
+
+.our-services{
+    margin: 4.5em 1em 1em 5em;
+}
+
+.our-services__heading{
+    font-size: 3em;
+    text-transform: uppercase;
+    padding-bottom: 0.6em;
+}
+
+.our-services__list{
+    list-style: none;
+    margin-right: 5em;
+}
+
+.our-services__list-item{
+    line-height: 1.5;
+    margin-left: 0;
+    font-size: 1.2em;
+}
+
+.our-services__list-item:not(:last-child){
+    padding-bottom: 2em;
+}
+
+.our-services__list-item:last-child{
+    margin-bottom: 5em;
+}
+
+.our-services__list-item i {
+    padding-right: 0.5em;
+}
+
+.our-services__list-item > span {
+    text-transform: uppercase;
+    font-weight: 500;;
+}
+
+
+
+/* CONTACT */
+
+.contact-section__heading{
+    text-transform: uppercase;
+    font-size: 2.7em;
+    padding-left: 1.6em;
+    padding-bottom: 0.3em;
+}
+
+.contact-section__line{
+    width: 100%;
+    height: 2px;
+    background-color: #858585;
+}
+
+.contact-section__contacts{
+    width: 80%;
+    font-size: 1.1em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    padding-left: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+}
+
+.contact-section__contacts-contact > span {
+    font-style: italic;
+    font-weight: 500;
+}
+
+.contact-section__form {
+    padding-left: 5em;
+    margin-bottom: 2em;
+}
+
+.contact-section__form__input-email{
+    padding: 1em 2em;
+    margin-right: 1em;
+    width: 40%;
+    background-color: #bab1ad;
+    border-radius: 10px;
+}
+
+.contact-section__form__input-submit{
+    padding: 1em 2em;
+    background-color: #67784d;
+    color: #fff;
+    border-radius: 10px;
+}
+
+/* ASIDE */
+
+.aside{
+    align-self: stretch;
+    background-color: #bab1ad;
+    flex: 1 1 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    padding: 2em;
+}
+
+.aside-content:not(:last-child){
+    padding-bottom: 4em;
+}
+
+.aside-content__heading{
+    color: #fff;
+    font-size: 4em;
+    font-weight: 100;
+}
