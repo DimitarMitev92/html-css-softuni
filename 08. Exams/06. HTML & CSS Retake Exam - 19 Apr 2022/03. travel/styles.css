@@ -1,0 +1,265 @@
+@import url(https://use.fontawesome.com/releases/v6.4.0/css/all.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+
+    width: 100%;
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+    top: 6%;
+    left: 6.5%;
+
+    background-image: linear-gradient(180deg, #c3ac65, #93661a);
+    padding: 2em 2.2em;
+}
+
+.first-navigation,
+.second-navigation {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #fff;
+    width: 100%;
+}
+
+.first-navigation__list,
+.second-navigation__list {
+    display: flex;
+    align-items: center;
+    padding-right: 5.5em;
+}
+
+.first-navigation__list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    list-style: none;
+    padding: 1em;
+}
+
+.second-navigation__list-item {
+    list-style: none;
+    padding: 1.2em 1.5em;
+}
+
+.first-navigation__list-item > i {
+    font-size: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.3em;
+    color: #73778a;
+}
+
+.first-navigation__list-item > a,
+.second-navigation__list-item > a {
+    font-size: 1em;
+    text-decoration: none;
+    color: #73778a;
+}
+
+
+.hero-section {
+    height: 585px;
+    position: relative;
+    z-index: -1;
+}
+
+.hero-section__background {
+    width: 124%;
+    transform: translate(-9.8%, -22%);
+}
+
+.shuttle {
+    width: 38%;
+    position: absolute;
+    top: 49%;
+    left: 6.5%;
+
+    background-color: rgba(0,0,0,0.6);
+    padding: 2em;
+}
+
+.shuttle__heading{
+    color: #fff;
+    font-size: 2em;
+    padding-top: 1em;
+    padding-bottom: 0.6em;
+}
+
+.shuttle__text{
+    color: #fff;
+    font-size: 1.3em;
+    margin-bottom: 1.2em;
+}
+
+.shuttle__btn{
+    font-size: 1.3em;
+    display: inline-block;
+    text-decoration: none;
+    color: #eca40e;
+    padding: 0.8em 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0.7em 1em;
+    background-color: transparent;
+    border: 3px solid #fff;
+}
+
+/* MAIN */
+
+.budapest-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: linear-gradient(270deg, #c3ac65, #93661a);
+}
+
+.budapest-card__heading{
+    font-size: 2em;
+    color: #fff;
+    margin:1em;
+}
+
+.budapest-card__list{
+    margin-bottom: 1em;
+    width: 45%;
+    margin: 0 auto;
+}
+
+.budapest-card__list-item{
+    color: #fff;
+    font-size: 1.4em;
+    margin-bottom: 1em;
+}
+
+.budapest-card__btn{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0.6em 1em;
+    border: 3px solid #fff;
+    margin-bottom: 1em;
+}
+
+.budapest-most__heading{
+    font-size: 2.5em;
+    font-weight: 400;
+    width: 70%;
+    color:  #73778a;
+    text-align: center;
+    margin: 1em 0 0.7em;
+}
+
+.budapest-most__see{
+    font-size: 1.2em;
+    font-weight: 400;
+    color:  #73778a;
+    text-align: center;
+    margin: 0.5em 0;
+}
+
+.budapest-most{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.budapest-most__list{
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.budapest-most__list-item{
+    list-style: none;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.budapest-most__list-item__image{
+    width: 200px;
+    height: 200px;
+    padding: 0.2em;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-bottom: 1em;
+}
+
+.budapest-most__list-item__text{
+    text-align: center;
+}
+
+
+.news-letter{
+    width: 100%;
+  background-color: #b58d10;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 1.5em;
+}
+
+.news-letter__content__heading{
+    font-size: 1.5em;
+    color: #fff;
+    margin-top: 1em;
+}
+
+.news-letter__content__text{
+    font-size: 1em;
+    color: #fff;
+    margin-top: 0.3em;
+}
+
+.news-letter__content__anchor{
+    color: #fff;
+    font-size: 1.4em;
+    text-decoration: none;
+    padding: 0.7em 1.2em;
+    border: 3px solid #fff;
+}
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+        text-align: center;
+        font-size: 1em;
+        padding: 1em;
+}
