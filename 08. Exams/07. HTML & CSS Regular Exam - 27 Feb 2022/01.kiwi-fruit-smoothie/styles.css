@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Serif', serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-image: url('./image/image1.png');
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 0 0.5em 0.5em rgba(0,0,0,0.2);
+    padding: 1.2em;
+    margin: 0 auto;
+    gap:1.2em;
+}
+
+.card-kiwi-content{
+    flex: 1 1 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-kiwi-content__heading{
+    width: 100%;
+    font-size: 1.5em;
+    border-bottom: 2px solid #359557;
+    text-align: center;
+}
+
+.card-kiwi-content__subheadings{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2em 0 2em 0;
+}
+
+.card-kiwi-content__subheadings-services,
+.card-kiwi-content__subheadings-minutes {
+    font-size: 1em;
+}
+
+.card-kiwi-content__list{
+    align-self: flex-start;
+    list-style: none;
+    margin-bottom: 1.8em;
+}
+
+.card-kiwi-content__list-item{
+    font-size: 1em;
+    padding: 0.1em;
+}
+
+.card-kiwi-content__list-item > span {
+    color: #359557;
+    font-weight: 700;
+}
+
+.card-kiwi-content__info{
+    font-size: 1.1em;
+    margin-bottom: 1.8em;
+}
+
+table.kiwi-table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table.kiwi-table th,
+table.kiwi-table td{
+    border: 2px solid #359557;
+}
+
+.card-image{
+    flex: 1 1 50%;
+}
+
+.card-image > img {
+    display: block;
+    width: 100%;
+}
