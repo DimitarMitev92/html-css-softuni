@@ -1,0 +1,281 @@
+@import url(https://use.fontawesome.com/releases/v6.4.0/css/all.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.site-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.1em 11em;
+}
+
+.site-nav__title{
+    font-size: 2em;
+}
+
+.site-nav__title > span {
+    color: #6fb2bf;
+}
+
+.site-nav__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-nav__list-item{
+    list-style: none;
+    padding-left: 1.8em ;
+}
+
+.site-nav__list-item > a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #000;
+}
+
+.hero__content{
+    width: 100%;
+    position: relative;
+}
+
+.hero__background{
+    width: 100%;
+    display: block;
+}
+
+.hero__content{
+    width: 38%;
+    position: absolute;
+    top: 44%;
+    left: 11.5%;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.hero__content-heading{
+    padding: 0.4em 0 0.2em 0.4em;
+    font-size: 3em;
+    font-weight: 400;
+    color: #fff;
+}
+
+.hero__content-btn{
+    font-size: 1.6em;
+    display: inline-block;
+    color: #fff;
+    padding: 0.5em 1.8em;
+    background-color: #008cba;
+    border-radius: 200px;
+    text-decoration: none;
+    margin: 0.5em 0 1em 1em;
+}
+
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome__heading{
+    font-size: 2em;
+    font-weight: 500;
+    margin: 1.2em;
+}
+
+.welcome__heading span {
+    padding-bottom: 0.5em;
+    border-bottom: 4px solid #008cba;
+}
+
+.welcome__content{
+    width: 70%;
+    text-align: center;
+}
+
+.welcome__btn{
+    margin: 1.5em;
+    padding: 0.7em 1.2em;
+    color: #fff;
+    background-color: #454545;
+    border-radius: 200px;
+    text-decoration: none;
+}
+
+.services {
+    background-color: #eef0f1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services__heading{
+    font-size: 2em;
+    font-weight: 500;
+    margin: 2em 0 0.3em 0;
+}
+
+.card__content-line {
+    background-color: #454545;
+    width: 100px;
+    height: 3px;
+    margin-bottom: 2em;
+}
+
+.cards{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 2em;
+    margin-bottom: 3em;
+}
+
+.card {
+    width: 350px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #454545;
+}
+
+.card > img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 350px;
+}
+
+.card__content {
+    padding: 2em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card__content-text{
+    padding: 1em 0;
+}
+
+.card__content-btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: #454545;
+    padding: 0.6em 1.2em;
+    border-radius: 5px;
+}
+
+.subscribe {
+    background-color: #393f43;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe__heading {
+    color: #fff;
+    font-weight: 500;
+    font-size: 2em;
+    margin: 1em 0 0.3em;
+}
+
+.subscribe__line {
+    background-color: #fff;
+    width: 100px;
+    height: 3px;
+    margin-bottom: 1.5em;
+}
+
+.subscribe__text{
+    color: #fff;
+    font-size: 1em;
+    margin-bottom: 1.5em;
+}
+
+.subscribe > form {
+    width: 45%;
+    display: flex;
+    gap:0.5em;
+    margin-bottom: 3em;
+}
+
+.subscribe > form > input[type=email] {
+    background-color:#545a5e;
+    padding: 1em;
+    font-size: 1em;
+    border-radius: 5px ;
+    flex-grow: 1;
+}
+
+.subscribe > form > input[type=submit]{
+    color: #fff;
+    background-color:#6abfff;
+    padding: 0.7em 1.7em;
+    font-size: 1.2em;
+    border-radius: 5px ;
+}
+
+.bottom-nav{
+    background-color: #2f3539;
+    padding: 2em 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.links__heading,
+.services-bottom__heading,
+.address__heading,
+.follow__heading {
+    color: #fff;
+    margin: 1em 0;
+}
+
+.links__list,
+.services-bottom_list {
+    list-style: none;
+    color: #fff;
+}
+
+.links__list-item,
+.services-bottom__list-item{
+    padding: 0.5em;
+}
+
+.address__content{
+    display: flex;
+    flex-direction: column;
+    gap:2em;
+    color: #fff;
+}
+
+.follow__icons {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+footer {
+    background-color: #262b2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    color: #fff
+}
+
+footer > p > span {
+    color: #0a809a;
+}
