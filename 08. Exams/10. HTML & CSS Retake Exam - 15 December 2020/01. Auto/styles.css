@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1, h2, h3 ,h4 ,h5 ,h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    width: 90%;
+    display: flex;
+    gap:3em;
+}
+
+section > article {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+section > article > h1 {
+    font-size: 1.6em;
+    color: #555;
+    margin-bottom: 2em;
+}
+
+section > article > p {
+    color: #555;
+}
+
+section > article > p:nth-child(3){
+    margin-bottom: 2em;
+}
+
+section > img {
+    width: 50%;
+}
+
+section > article > div {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+section > article > div > div  {
+    display: flex;
+    gap: 1em;
+}
+
+section > article > div > div > img {
+    width: 50px;
+}
+
+section > article > div > div > div > h2{
+    color: #555;
+}
+section > article > div > div > div > p{
+   color: #555;
+}
