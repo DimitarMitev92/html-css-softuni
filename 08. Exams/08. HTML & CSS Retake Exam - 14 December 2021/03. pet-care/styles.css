@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p,a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    cursor: pointer;
+}
+
+header {
+    width: 60%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-nav{
+    display: flex;
+    align-items: center;
+}
+
+.site-nav__navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-nav__navigation__item{
+    list-style: none;
+    padding-left: 2em;
+}
+
+.site-nav__navigation__item > a {
+    color: black;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+/* MAIN */
+
+
+/* HERO */
+
+.hero {
+    position: relative;
+}
+
+.hero__dog{
+    position: absolute;
+    top: 6%;
+    left: 29%;
+}
+
+.hero__content{
+    width: 400px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.hero__content__heading {
+    color: #fff;
+    font-size: 4em;
+    font-weight: 400;
+}
+
+.hero__content__heading > span {
+    font-weight: 700;
+}
+
+.hero__content__info{
+    font-size: 0.8em;
+    color: #fff;
+    margin-bottom: 2.2em;
+}
+
+.hero__content__btn{
+    font-size: 1.3em;
+    display: inline-block;
+    text-decoration: none;
+    color: #ff3d10;
+    padding: 0.7em 1.5em;
+    border-radius: 200px;
+    background-color: #fff;;
+}
+
+.hero__background {
+    width: 100%;
+}
+
+/* SERVICES */
+
+.services{
+    margin-top: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services__heading{
+    font-size: 2.5em;
+}
+
+.services__info{
+    color: #393939;
+    width: 40%;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap:1.5em;
+    margin-bottom: 5em;
+}
+
+.card {
+    padding: 3em 2em;
+    border-radius: 5px;
+    border: 1px solid  #ff3d10;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.card__img{
+    position: absolute;
+    top: 20%;
+}
+
+.card__heading{
+    margin: 1em 0;
+}
+
+.card__info {
+    line-height: 1.5;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.cat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5em;
+    margin-top: 2em;
+}
+
+.cat__content{
+    width: 30%;
+}
+
+.cat__content__heading{
+    font-size: 3em;
+    font-weight: normal;
+    line-height: 1.2;
+    margin-bottom: 0.7em;
+}
+
+.cat__content__heading > span {
+    font-weight: bold;
+}
+
+.cat__content__text {
+    font-weight: 0.9em;
+    margin-bottom: 2.5em;
+}
+
+.cat__content__btn{
+    display: inline-block;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 0.8em 2.5em;
+    border-radius: 200px;
+    background-image: linear-gradient(#f24233, #ee6012);
+    text-decoration: none;
+}
+
+.why{
+    position: relative;
+}
+
+.why__background{
+    width: 100%;
+}
+
+.why__content {
+    width: 34%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.why__content__heading{
+    font-size: 2.5em;
+    color: #fff;
+    margin: 0.8em 0;
+}
+
+.why__content__text{
+    color: #fff;
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.why__content__contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1.5em;
+    
+}
+
+.why__content__contacts__btn{
+    color: #f24233;
+    font-size: 1.1em;
+    padding: 0.8em 2.5em;
+    border-radius: 200px;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.why__content__contacts__phone{
+    color: #fff;
+}
+
+footer {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap:1em;
+    margin: 5em;
+}
+
+.contacts ,
+.our-services ,
+.quick-link ,
+.anipat {
+    width: 22%;
+} 
+
+.contacts > h3,
+.our-services > h3,
+.quick-link > h3,
+.anipat__logo {
+    font-size: 1.2em;
+    margin-bottom: 1.4em;
+    font-weight: 600;
+}
+
+.contacts > div,
+.our-services > div,
+.quick-link > div {
+    display: flex;
+    flex-direction: column;
+    gap:0.7em;
+}
+
+.contacts > div > p,
+.our-services > div > a,
+.quick-link > div > a,
+.anipat > p {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #727272;
+}
+
+.anipat {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
