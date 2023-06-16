@@ -1,0 +1,90 @@
+@import url(https://use.fontawesome.com/releases/v6.4.0/css/all.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    margin: 6em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+    flex: 0 1 40%;
+    background-color: #e3f2fd;
+    box-shadow: 0 0 0.5em 0.2em rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.content > h1 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.content__list > li {
+    margin-bottom: 1.5em;
+    color: #555;
+}
+
+.content__list > li > span {
+    color: #47abf8;
+    font-size: 1.2em;
+}
+
+.fa-li {
+    text-align: start;
+}
+
+.price {
+    font-family: 'Montserrat', sans-serif;
+    flex: 0 1 40%;
+    border: 6px solid #43a9f8;
+    box-shadow: 0 0 0.5em 0.2em rgba(0,0,0,0.2);
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price > h2 {
+    color: #555;
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 2em;
+}
+
+.price > h2 > span {
+    color: #47abf8;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.price > p {
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 2em;
+}
+
+.price > a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #47abf8;
+    padding: 0.8em 3em;
+    box-shadow: 0 0 0.5em 0.2em rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
