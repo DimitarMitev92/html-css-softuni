@@ -1,0 +1,278 @@
+:root{
+    --color-grey: #54546d;
+    --color-purple: #9a5dc6;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Montserrat, sans-serif;
+}
+
+/* NAVIGATION */
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation__logo{
+    width: 150px;
+    padding: 0.7em 0 1.5em;
+}
+
+.navigation__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.navigation__list-item{
+    list-style: none;
+}
+
+.navigation__list-item__ancher{
+    color:  var(--color-grey);
+    font-weight: 600;
+    padding: 0 1em;
+    text-decoration: none;
+}
+
+.fees {
+    background-color: var(--color-grey);
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+
+.fees__heading{
+    font-size: 2.2em;
+    font-weight: 500;
+    color: #fff;
+    position: absolute;
+    top: 24%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.fees__calculator {
+    position: absolute;
+    top: 100px;
+    left: -70px;
+}
+
+/* CARDS */
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap:2em;
+    position: absolute;
+    top: 28%;
+    left: 7%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 460px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.2);
+}
+
+.card-info{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-heading{
+    font-size: 1.7em;;
+    color: var(--color-grey);
+    margin: 1.8em 0 0.4em;
+}
+
+.card-info{
+    font-size: 1.1em;
+    text-align: center;
+    color: var(--color-grey);
+    margin-bottom: 1em;
+
+}
+
+.card-btn{
+    color: #fff;
+    background-color: var(--color-purple);
+    padding: 1em 2em;
+    border-radius: 100px;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.2);
+}
+
+.card-prices{
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    background-image: linear-gradient(90deg, #029a3c, #58d688);
+    margin-top:auto;
+  
+}
+
+div.card:nth-child(2) > div:nth-child(2),
+div.card:nth-child(3) > div:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.card:nth-child(2) > div:nth-child(2) > div:nth-child(1),
+div.card:nth-child(3) > div:nth-child(2) > div:nth-child(1){
+    border-right: 2px solid #fff;
+    padding-right: 1.65em;
+}
+
+.card-prices-free{
+    font-size: 1.5em;
+    color: #fff;
+    padding: 1em 0;
+}
+
+.card-price-value{
+    font-size: 1.2em;
+    color: #fff;
+    padding-bottom: 1em;
+}
+
+div.card-prices:nth-child(2){
+    background-image: linear-gradient(90deg, #4c6b87, #6ca0d0);
+}
+
+div.card:nth-child(3) > div:nth-child(2){
+    background-image: linear-gradient(90deg, #4a37a5, #8e80e0);
+}
+
+/* IN PRESENT OR ONLINE */
+
+.online{
+    margin-top: 16em;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.online__heading{
+    color: var(--color-grey);
+    margin-bottom: 1em;
+    font-weight: 500;
+}
+
+.online__paragraph{
+    font-size: 1.1em;
+    color: var(--color-grey);
+    margin-bottom: 2em;
+}
+
+.online-table{
+    border-radius: 5px;
+    border-collapse: collapse;
+    margin-bottom: 8em;
+}
+
+.online-table-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em;
+}
+
+.online-table-row:nth-child(odd){
+    background-color: #e6e6e6;
+}
+
+.online-table-row:nth-child(even){
+    background-color: #f8f8f8;
+}
+
+tr.online-table-row:nth-child(1){
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+tr.online-table-row:nth-child(6){
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.online-table-ticks{
+    padding-right: 3em;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* financing */
+
+.financing{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4em;
+}
+
+.financing-info{
+    flex: 0 1 1000px;
+}
+
+.financing-info__heading{
+    color: var(--color-grey);
+    padding-bottom: 1.3em;
+}
+
+.financing-info__paragraph{
+    color: var(--color-grey);
+    padding-bottom: 1em ;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--color-grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #a1a1a1;
+    padding: 2em;
+}
