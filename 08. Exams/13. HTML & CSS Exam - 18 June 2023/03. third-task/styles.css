@@ -1,0 +1,359 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+@import url(https://use.fontawesome.com/releases/v6.4.0/css/all.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* NAV */
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.7em 12em;
+}
+
+.left-nav,
+.right-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.left-nav > li,
+.right-nav > li {
+    list-style: none;
+}
+
+.left-nav > li > a,
+.right-nav > li > a {
+    text-decoration: none;
+    color: #555;
+}
+
+.right-nav > li:nth-child(2) > a{
+    padding: 1em;
+    background-color: #ade1df;
+    color: #333;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+/* HERO */
+
+.hero{
+    background-color: #ade1df;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero > h1 {
+    font-size: 3.7em;
+    font-weight: 600;
+    text-align: center;
+    margin: 1.8em 0 0.5em;
+}
+
+.hero > p {
+    color: #333;
+    font-size: 1.1em;
+    margin-bottom: 1.8em;
+}
+
+.hero-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.hero-btns__iOS,
+.hero-btns__Android{
+    text-decoration: none;
+    color: #fff;
+    padding: 1.5em 1.7em;
+    border-radius: 5px;
+    background-color: #000;
+    margin-bottom: 5em;
+}
+
+/* NUMS */
+
+.nuums{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nums-first,
+.nums-second,
+.nums-third{
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2em;
+    margin: 5em 0 3.5em;
+    padding: 0.3em 1em;
+
+    border-left: 2px solid rgba(0,0,0,0.1);
+    border-right: 2px solid rgba(0,0,0,0.1);
+}
+
+.nums-first > h2,
+.nums-second > h2,
+.nums-third > h2 {
+    font-size: 2.4em;
+    font-weight: 600;
+}
+
+.nums-first > p,
+.nums-second > p,
+.nums-third > p {
+    text-align: center;
+    width: 90%;
+    padding-bottom: 5em;
+    font-size: 1em;
+}
+
+/* PHONE */
+
+.phone{
+    background-color: #ade1df;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5.5em;
+}
+
+
+.phone > img {
+    border: 2px dashed #aaa;
+    width: 300px;
+    box-sizing: content-box;
+    padding: 0 2em;
+}
+
+.phone-content{
+    width: 33%;
+}
+
+.phone-content > h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.phone-text {
+    margin: 1em 0;
+}
+
+.phone-text > p {
+    padding-top: 0.5em ;
+    font-size: 0.95em;
+}
+
+.phone-content > a {
+    display: inline-block;
+    color: #444;
+    text-decoration: none;
+    border-bottom: 1px solid #444;
+    padding-bottom: 0.2em ;
+    margin-top: 2em;
+}
+
+/* PLANS */
+
+.plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f5fb;
+}
+
+.plans > p {
+    align-items: center;
+    background-color: #ade1df;
+    font-size: 0.9em;
+    font-weight: 500;
+    padding: 0.5em 1.1em;
+    border-radius: 8px;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+.plans > h2 {
+    font-size: 2.3em;
+    margin-bottom: 2.3em;
+}
+
+.plans-container {
+    display: flex;
+    background-color: #fff;
+    margin-bottom: 3em;
+    border-radius: 15px;
+    border: 1px solid #bbb;
+}
+
+.plans-container-card{
+    flex: 1 1 20%;
+    padding: 0 2em;
+    margin: 2em 0;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #bbb;
+}
+
+.plans-container-card > h3 {
+    text-align: center;
+}
+
+.plans-container-card > p {
+    padding-bottom: 1.5em;
+}
+
+.plans-container-card > h2 {
+    font-size: 1em;
+    font-weight: 400;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 1em;
+}
+
+.plans-container-card > h2 > span {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+
+.fa-ul {
+    margin: 0;
+}
+
+.plans-container-card > ul {
+    padding: 2em 0;
+}
+
+.plans-container-card > ul > li {
+    padding: 0.6em 0;
+    font-size: 0.8em;
+}
+
+.plans-container-card > a {
+    text-decoration: none;
+    text-align: center;
+    background-color: #ade1df;
+    color: #000;
+    padding: 1.2em;
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+.expand{
+    flex: 1 1 40%;
+    background-color: #ade1df;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2em;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.expand-article > h4 {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+
+.expand-article > h2 {
+    width: 680;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.expand-article > ul {
+    margin: 2.2em 0;
+}
+
+.expand-article > ul > li {
+    font-size: 0.9em;
+    list-style: none;
+    padding-bottom: 0.6em;
+}
+
+.expand > a {
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    padding: 1.2em 1.5em;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #000;
+}
+
+/* STARTED */
+
+.started {
+    background-color: #ade1df;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4em 0 6em;
+}
+
+.started > h2 {
+    width: 30%;
+    font-weight: 600;
+    text-align: center;
+    font-size: 3.5em;
+    margin-bottom: 0.1em;
+}
+
+.started > p {
+    text-align: center;
+    width: 45%;
+    font-size: 1.3em;
+    margin-bottom: 2em;
+}
+
+.started-btns {
+    display: flex;
+    gap: 1em;
+}
+
+.started-btns__iOS,
+.started-btns__Android{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 1.5em 1.7em;
+    border-radius: 5px;
+    background-color: #000;
+}
+
+footer {
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer > div > i {
+    padding: 0.6em;
+}

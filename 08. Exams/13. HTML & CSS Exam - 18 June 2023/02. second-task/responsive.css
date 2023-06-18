@@ -1,0 +1,83 @@
+@media screen and (max-width: 600px) {
+
+    .home-navbar{
+        width: 90%;
+    }
+
+
+
+    body > div > div > div.home-navbar-container > div > div.home-cta-container > button{
+        display: inline-block;
+        font-size: 0.8em;
+        padding: 0.6em 0.8em;
+    }
+
+    .home-hero {
+        width: 90%;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        padding: 4em 0;
+        margin: 0;
+    }
+
+    .home-image1 {
+        width: 95%;
+        padding-bottom: 1em;
+    }
+
+
+    .home-hero-text-container{
+        padding: 0 1em;
+        width: 100%;
+        margin: 0;
+    }
+
+    .home-text{
+        font-size: 0.95em;
+    }
+
+    .home-text02 {
+        font-size: 0.91em;
+    }
+
+    .home-cta-btn2 {
+        width: 32%;
+        margin: 0 auto
+    }
+
+    #features{
+        width: 90%;
+        padding: 0;
+        height: 100%;
+    }
+
+
+
+
+    #features > div.home-heading-container{
+        width: 100%;
+    }
+
+    #features > div.home-cards-container{
+        flex-direction: column;
+    }
+
+    #features > div.home-cards-container > div {
+        width: 100%;
+    }
+
+    .home-image2, .home-image3, .home-image4 {
+        width: 400px;
+        height: 270px;
+    }
+
+    .home-text04, .home-text05, .home-text06, .home-text07{
+        font-size: 0.85em;
+    }
+
+
+  .home-stats{
+        grid-template-columns: 1fr;
+        padding-bottom: 30px;
+    }
+}
